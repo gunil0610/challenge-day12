@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__text {
+  font-weight: 600;
+}
+
+.header__icon {
+  opacity: 0.5;
+}
