@@ -1,0 +1,78 @@
+.popular-recipes {
+  margin: 30px 0px 15px 0px;
+  width: 100%;
+}
+
+.popular__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.black-header {
+  font-size: 10px;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+.header__column:nth-child(2) {
+  font-size: 8px;
+  font-weight: 600;
+  color: #e2283e;
+}
+
+.popular__recipe {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.popular__recipe .recipe__list {
+  height: 77px;
+  width: 120px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  line-height: 80px;
+  font-size: 8px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.recipe__filter {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.item1 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcbkWofujZTmwQmDd8E6poFBDIfeQZn6H0hJByB7yCze9XN94z&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item2 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsMqUu_QoZkxhqDwO6l1u-iUKFxFNsjKY34GhjF2Jpf6j8fWFV&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.item3 {
+  background-image: url(https://images.theconversation.com/files/274110/original/file-20190513-183096-1eu8vnq.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.item4 {
+  background-image: url(https://lmld.org/wp-content/uploads/2014/03/how-to-make-a-fruit-smoothie-10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

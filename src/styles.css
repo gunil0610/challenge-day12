@@ -3,7 +3,7 @@
 @import "header.css";
 @import "nav.css";
 @import "popular.css";
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700,&display=swap");
+@import "other.css";
 
 * {
   box-sizing: border-box;
@@ -11,4 +11,5 @@
 
 body {
   background-color: #f8f7ff;
+  font-family: "Montserrat", sans-serif;
 }

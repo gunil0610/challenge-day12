@@ -1,0 +1,33 @@
+.other__header {
+  margin-bottom: 10px;
+}
+
+.other-recipe {
+  height: 44px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  margin: 9px 0px;
+  padding: 12px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.recipe__column .recipe__title {
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 14px;
+  opacity: 0.8;
+}
+
+.recipe__column .recipe__num {
+  font-size: 5px;
+  font-weight: 700;
+  opacity: 0.4;
+}
+
+.recipe__column i {
+  color: #e2283e;
+  line-height: 21px;
+  font-size: 13px;
+}

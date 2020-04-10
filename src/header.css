@@ -5,6 +5,8 @@
 
 .header__text {
   font-weight: 600;
+  font-size: 12px;
+  opacity: 0.9;
 }
 
 .header__icon {

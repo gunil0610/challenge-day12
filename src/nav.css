@@ -11,9 +11,13 @@
   position: absolute;
   bottom: 20px;
   border-radius: 5px 5px 30px 30px;
-  font-size: 18px;
-  opacity: 0.7;
   padding: 15px 20px;
+  box-shadow: 0px -10px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.nav__list .nav__icon {
+  opacity: 0.7;
+  font-size: 18px;
 }
 
 .fa-utensils {
